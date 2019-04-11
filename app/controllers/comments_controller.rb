@@ -21,26 +21,3 @@ class CommentsController < ApplicationController
      params.require(:comment).permit(:sentence, :topic_id)
    end
  end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-end
